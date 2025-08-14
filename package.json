@@ -1,12 +1,12 @@
 {
   "name": "26_ecommerceproject",
-  "homepage":"https://RaviSir26.github.io/ShoppingInfo",
+  "homepage": "https://RaviSir26.github.io/ShoppingInfo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run build",
-   	"deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -36,6 +36,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
+    "rollup": "^4.46.2",
     "vite": "^6.3.5"
   }
 }
